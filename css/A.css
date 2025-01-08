@@ -1,0 +1,185 @@
+@import url('B.css');/* IMPORTAR ARCHIVO B*/
+body  {
+     font-family:sans-serif;/* TIPO DE LETRA*/
+    background-color: #fbfbfb; /* Fondo del sitio web */
+    color: black;
+}
+html{/* NAVEGADOR EN MODOD OSCURO*/
+    color-scheme:  dark;
+    }
+  /*#titulo{/* selector id
+    color: blue;
+  } 
+  */
+    /*.titulo{
+        color: rgb(9, 17, 243);
+    } /* esta es la forma para poner color a los dos titulos reutilizar codigo*/ 
+    h3{
+        color: rgb(6, 6, 6); /*cambiar de color al titulo-->*/ 
+    }
+     p{
+        font-size: 20px; /*Define el tamaño de la letra de todas las opciones -->*/
+        /*font-size: larger;un grupo de palabras clave de dimensión absoluta en relación al que determina el usuario como tamaño por defecto      */
+       /* font-size: 0ch;/* mide el ancho de la letra "0" en la fuente utilizada. Si pones "0ch", efectivamente estás diciendo que el tamaño debe ser 0 veces el ancho de "0", lo que resultaría en un tamaño de fuente de 0.
+        font-size:0%;/* es una unidad relativa basada en el tamaño de la fuente de su elemento principal. "0%" establecería un tamaño de fuente de 0, ya que es 0 veces el tamaño de la fuente principal. 
+        font-size: 0cap;/* es una unidad de medida relativa a la altura de una letra mayúscula en la fuente. De nuevo, "0cap" indicaría un tamaño de fuente de 0.
+        */
+    }
+    
+  /*  [class="titulo2"]{
+    font-size:30px;
+    color:red;
+}*/
+
+    *{  /*quito los puntos que tenia el menu */
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing:border-box ;
+    }
+    nav{
+      background-color:gray;
+      height: 50;
+      width: 100%;
+    }
+    .imagen{
+      position: absolute;
+      padding: 20px 70px;
+    }
+    .logo{
+      height: 40px;
+    }
+    nav ul {
+      float:right;
+      margin-right:30px;
+    }
+    
+    /*
+    sintaxis css
+    selector {
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+    }
+    
+    
+    
+    h2{
+    esto es la cascada de css a medida q se van agregando cosas nuevas hacia abajo en el navegador se va ir actualizando
+       /* color:yellow; /*cambiar de color al titulo-->
+        background-color: aquamarine;/*cambiar de color el  fondo del titulo -->
+        font-size: 40px;   /*permite establecer el tamaño de letra del texto
+        
+        }
+        /*
+        h2{
+           /* color:grey; /*cambiar de color al titulo-->
+            background-color: forestgreen;/*cambiar de color el  fondo del titulo -->
+            font-size: 40px;   /*permite establecer el tamaño de letra del texto
+    
+            }
+            /*
+    
+          
+           /*  Ponerle color a todo el texto unicolor 
+           *{
+            color:grey;
+            font-size: 40px;+
+            }
+           
+           */
+           #navbar>li{ /*Tomar los elementos DE LI HIJOS DIRECTOS  */
+            color: blueviolet;
+             font-size: 40px;
+            }
+            #navbar ul li{  /*Tomar los elementos DE LI q esten dentro  de ul y el ul este dentro de navbar  */
+              color: blueviolet;
+             font-size: 40px;
+            }
+
+           #navbar>li{ /*Tomar los elementos DE LI HIJOS DIRECTOS  */
+             color: blueviolet;
+              font-size: 40px;
+          }
+         
+          #goku234432423 >p{ /*Tomar los elementos de section con el id goku y cambiar todo de color lo q esta en la etiqueta p hijos directo  */
+            color: red;
+            font-size: 45px;
+
+          }
+          #goku234432423 .gohan23422342342342 >p{ /* selecciona la clase gohan y seleccionar todos los parrafos q esten dentro del elemento q tienen la clase gohan q  este adentro del elemento q tiene el ID Goku */
+            color: rebeccapurple;
+            font-size: 40;
+
+          }
+          #goku23443243>.gohan23422342342342 >p{ /* selecciona parrafo   q esta directamente despues de un elemento con clase gohan q esta dentro de goku */
+            color: rebeccapurple;
+            font-size: 40;
+
+          }
+
+          #goku23443243>p,
+          #gohan,
+          .chiqui{
+            color: rgb(3, 245, 3);
+            font-size: 45px;
+
+          }
+          h1.Mafe{ /* selecciona el titulo con la clase mafe  */
+            color: sienna;
+          }
+          section.goku234432423{ /* selecciona el section con la clase goku  */
+            color: darkmagenta;
+            font-size: 23px;
+          }
+          div.Mafe#pilar{   /* selecciona el  div de la clase  Mafe   con el id pilar*/
+            color: sienna;
+            font-size: 89px;
+          }
+          section.Mafe>div.gohan23422342342342 + p{ /* selecciona lo q esta section con clase Mafe  seleccionando el hijo  mayor  q se llama div   q es gohan23422342342342 agregando el parrafo q esta incluido*/
+            color: slategrey;
+            font-size: 100px;
+          }
+          section.Mafe>div.gohan23422342342342~p{ /* selecciona lo q esta section con clase Mafe  seleccionando el hijo  mayor  q se llama div   q es gohan23422342342342 incluyendo el siguiente parrafo*/
+            color: slategrey;
+            font-size: 100px;
+          }
+          /*  Especificidad*/
+h2{
+  color: fuchsia;
+  font-size: 40px;
+  color: blue;
+}
+
+h2{
+  color: fuchsia;
+  font-size: 40px;
+  color: blue;
+}
+
+
+section.goku234432423>div.gohan23422342342342~p#goku{  /*  cammbiar color de texto*/
+  color: rgb(201, 12, 12) !important;
+  font-size: 4000px;
+}
+
+section.goku234432423>p{  /*  cammbiar color de texto mas especifico*/
+  color: rgba(9, 237, 58, 0.867);
+
+} 
+         /* 20,21,22 */
+#goku{ /*  cammbiar color de texto mas especifico*/
+    color:rgb(0, 8, 255) !important;  /*  el valor q se le asigna a la propiedad  y al elemto q es pilar es importante no va a tener en cuenta la especificidad  */ ; /*  En la linea 162 se menciona la propiedad pilar  y se repite en la linea 170 por lo tanto  tiene una condicion  q es !important obligatoriamente en la linea 162 no se cumple,SE CUMPLE LA LINEA 170 SI EN LA LINEA ANTERIOR ESTA EL IMPORTANT OBLIGATORIAMENTE SE TIENE Q CUMPLIR EN LA ANTERIOR ESTO SE DEBE A QUE TIENE MAS ESPECIFICACIONES  */
+}   
+
+#goku{
+  color: aqua !important;
+}
+/*
+    si se coloca el !important aca  tiene mas opcion de cumplirse porque es mas complejo e  especifico y se cumple mas las especificidad
+ 
+    
+   
+} 
+  */
