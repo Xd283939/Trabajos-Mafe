@@ -1,0 +1,91 @@
+/* CSS RESET */
+
+* {
+  padding: 0; /* remueve los relleno */
+  margin: 0; /* remueve los márgenes */
+  text-decoration: none; /* remueve el subrayado */
+  list-style: none; /* remueve los puntos en las listas */
+  box-sizing: border-box; /* simplifica el tamaño de las cajas */
+}
+
+html {
+  color-scheme: light dark; /* cambia los colores entre modo claro y modo oscuro */
+}
+
+img,
+picture,
+svg,
+video {
+  display: block; /* cambia el tipo de display a block */
+  max-width: 100%; /* cambia el tamaño máximo para que se ajuste a la página */
+}
+
+/* VARIABLES DE CSS */
+
+:root {
+  --ff-sans: system-ui, sans-serif; /* fuente sin serifa para todo la página */
+  --ff-mono: monospace; /* fuente monoespaciada para código */
+
+  /* Colores en el modo claro */
+  @media (prefers-color-scheme: light) {
+    --clr-fondo: #eff1f5;
+    --clr-texto: #4c4f69;
+  }
+
+  /* Colores en el modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    --clr-fondo: #1e1e2e;
+    --clr-texto: #cdd6f4;
+  }
+}
+
+/* ETIQUETAS */
+
+body {
+  font-family: var(--ff-sans); /* usa la variable de la fuente */
+  background-color: var(--clr-fondo); /* usa la variable del color de fondo */
+  color: var(--clr-texto); /* usa la variable del color del texto */
+}
+
+/* CLASES */
+
+/* CLASES ANIDADAS */
+.prueba {
+  background-color: red;
+
+  /* El Ampersand (&) es opcional */
+  & .prueba__nombre {
+    background-color: blue;
+  }
+
+  & .prueba__descripcion {
+    background-color: #724d00;
+  }
+}
+
+/* CLASES TRADICIONALES */
+/* 
+.prueba .prueba__nombre {
+  background-color: blue;
+}
+
+.prueba .prueba__descripcion {
+  background-color: #724d00;
+}
+*/
+
+/* CLASES SEPARADAS */
+/* .prueba {
+  background-color: red;
+}
+.prueba__nombre {
+  background-color: blue;
+}
+.prueba__descripcion {
+  background-color: #724d00;
+} */
+
+/* IDs */
+
+#id {
+}

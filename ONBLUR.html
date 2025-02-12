@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5>Ingrese los datos</h5>
+    <input type="text" id="Nombre" onfocus="f_focus()" onblur="f_blur()">
+    <script>
+        function f_focus(){
+            document.getElementById('Nombre').value ='';
+
+        }
+      function f_blur (){
+        if(document.getElementById('Nombre').value==''){
+            document.getElementById('Nombre').style.background='blue';
+ 
+            document.getElementById('Nombre').style.background='red';
+            alert('Ingrese datos');
+        }
+      }
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let texto1='Javascript';
+        document.write('La palabra es', texto1);
+        document.write('<br>');
+        // let texto2='JavaScriptt';
+        // let texto45='La ingenieria de Sistemas ' + 'Es la mejor de todas' + ' a nivel personal y todo';
+        // document.write(texto1);
+        // document.write('<br>');
+        // document.write(texto2);
+        // document.write('<br>');
+        // document.write(texto45); 
+        
+        //Ver tamano de un texto
+        document.write('Cantidad de Letras:',texto1.length);
+        document.write('<br>');
+        //cantidad especifica de caracteres  de la palabra javascript
+        document.write('Las primeras 4 letras ',texto1.slice(0,4));
+        document.write('<br>');
+        //cantidad especifica de caracteres  de la palabra javascript
+        document.write('Las primeras 5 letras ',texto1.substring(0,5));
+        document.write('<br>');
+        //Cambiar valores  en un texto
+        let saludo='Hola a todos';
+        saludo = saludo.replace('Hola',   'adios sapo');
+        document.write(saludo);
+        document.write('<br>');
+        //Poner en mayuscula
+        document.write('En mayuscula:',texto1.toUpperCase());
+        document.write('<br>');
+        //Poner en minuscula
+        document.write('En miniscula:',texto1.toLowerCase());
+        document.write('<br>');
+        //Unir texto
+        let texto9='Curso de ';
+        document.write('Unir palabras;',texto9.concat(texto1));
+        document.write('<br>');
+        //Acortar espacios entre los textos 
+        let palabra0='     Holaaa   ';
+        document.write(palabra0.trimStart());
+        document.write('<br>');
+        document.write(palabra0.trimEnd());
+        document.write('<br>');
+        document.write(palabra0.trim());
+        document.write('<br>');
+        //Cortar cantidad de caracteres
+        document.write(texto1.split('script'));// corta la palabra q esta dentro de los parentesis y de las comillas
+    </script>
+  </body>
+</html>

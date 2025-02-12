@@ -1,0 +1,1103 @@
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    width: 100vw; 
+    height: 100vh;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: aquamarine;
+    margin: 0;
+    background-image: url("../img/R.png"), repeating-linear-gradient(to right,red 1% 10%,yellow 10% 20%,blue 20% 30%);/*Repite los degradados repeatimg repite todo los colores 
+    background-image: url("../img/R.png"),repeating-radial-gradient(circle at 50% 50%, red 1% 10%, green 10% 20% , blue 10% 20% );/*Hace un circulo 
+    background-image: url("../img/R.png"),repeating-conic-gradient(from 180deg at 50% 50%, white 1deg 10deg, black 10deg 20deg );/*Imagen conica simple
+}
+
+/*
+
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+
+.SAIYAJIN2{
+    width: 100vw; 
+    height: 100vh;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: aquamarine;
+    margin: 0;
+    background-image: url("../img/R.png"), conic-gradient(from 90deg, red, yellow, green); /*Paleta de color en forma de conico*/ /*from 45deg son los angulos 
+    background-size: 100% 100%;
+}
+
+*/
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    width: 100vw; 
+    height: 100vh;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    color:#ffff ;
+    margin: 0;
+   background: url("../img/R.png"), radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);/*Valor por  dedfecto ellipse ancho  alto  200PX ,circle,*//*El degrado es por porcentaje deacuerdo al valor por defecto y si se le quita el porcentaje le agrega un degradado cuando se le agrega el at es el eje x y el y
+    background-size: 100% 100%;
+}
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+width: 100vw; 
+height: 100vh;
+padding: 15px;
+font-size: 20px;
+box-sizing: border-box;
+color:#ffff ;
+margin: 0;
+background-image: linear-gradient(indianred,  40% blue , yellow ,yellowgreen, gray , green, greenyellow);/*Se le puede meter varios colores no importa la cantidad use los comando to right to left  mas que todo son las propiedad del sitio web y eso hace de cambiar los colores 
+    background-image: linear-gradient( 1turn,indianred, rgba(0, 0, 255, 0) , rgba(255, 255, 0, 0) ,rgba(153, 205, 50, 0.063), rgba(128, 128, 128, 0) , rgba(0, 128, 0, 0), rgba(172, 255, 47, 0.31)), url("../img/R.png");
+    background-size:  100% 100% ; 
+}
+*/
+
+
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+width: 100vw; 
+height: 100vh;
+padding: 15px;
+font-size: 20px;
+box-sizing: border-box;
+color:#ffff ;
+margin: 0;
+background-color: blueviolet;
+background: url("../img/R\ \(1\).png")  no-repeat  center right / 200px  , url("../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg") no-repeat center left/ 200px  ;/*Poner las caracteristicas todas a la vez de acuerdo a lo anterior
+    }
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+width: 700px; ;
+height: 500px;
+padding: 15px;
+font-size: 20px;
+box-sizing: border-box;
+color:#ffff ;
+margin: 30px;
+border: 10px dotted darkolivegreen;
+
+
+background:fuchsia url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg)  no-repeat   border-box   border-box scroll top left  / 100% 100% ;
+    }
+    Todas las propiedades  en uno solo
+ 
+*/
+
+
+
+
+
+
+
+
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: #fff;
+    background: rgb(67, 21, 232); 
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100% 100%; 
+    background-position:  top left;
+    background-origin:content-box;
+    background-clip: content-box;
+    background-clip: text ;
+    background-clip: border-box; 
+    background-attachment: scroll;Comportamiento de una imagen de fondo lo que se haga cuando es scroll  la imagen se va a mover
+    background-attachment: fixed;
+    }
+    #GOKU{
+        background-color: aquamarine;
+        background-image:url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+        background-position:  top left;
+        background-origin:content-box;
+        background-clip: content-box;
+        background-clip: text ;
+        background-clip: border-box; 
+        background-attachment: fixed;Imagen va a hacer fija cmbia su tamaño y respeto al viewport por eso es q la imagen aparece recortada pero con esta propiedad
+                                        de acuerdo a las anteriores se va a poner completa al tamaño del navegador
+    }
+    #GOKU2{
+        color: black;
+
+    }
+    */
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: #fff;
+    background: rgb(67, 21, 232); 
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100% 100%; 
+    background-position:  top left;
+    background-origin:content-box;/*La imagen se acomoda  o cubre el area q se esta definiedo
+    background-clip: content-box;/*Se va a recortar el fondo  tambien se aplica a lo q es el background color
+    background-clip: text ;El texto se pone transparente
+    background-clip: border-box;Toda la imagen y todo el fondo se muestra  y no este recortado
+    }
+    */
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100% 100%; 
+    background-position:  top left;
+    background-origin:content-box;
+    }
+*/
+
+/* 
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover; 
+    background-position:  bottom 150px right 150px;Posicionamiento eje x ,eje y
+    }
+*/
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover; Tamaño de la imagen 
+
+    }
+    */
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:repeat ;
+    background-size:cover; Se estira y se recorta si es necesario
+
+    }
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/wallpapersden.com_call-of-duty-warzone-operators-gaming_1920x1080.jpg);
+    background-repeat:no-repeat ;Si la imagen esta en repeat se va a repetir de lo contrario no se va a cambiar a no repeat ya que antes estaba en repeat 
+    background-size:contain; /*Ajusta la imagen al contenedor  no la recorta no la estira,si hay un espacio la img se repetira 
+    }
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/R\ \(1\).png);
+    background-repeat: round;/*En el eje x se coloca una imagen a la izquierda
+    y derecha  y se cubre el espacio con la imagen,en el eje  Y y se coloca una imagen
+    arriba y abajo  y se cubre  el espacio  con la imagen.La imagen no c recorta en el contenido 
+    pero si en el borde y solo si es necesario se distorsiona la imagen para  cubrir bien los  espacios
+    entre las imagenes 
+    }
+    */
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/R\ \(1\).png);
+    background-repeat: space;La imagen de fondo se repite manteniendose completa,uniforme con su misma caracteristicas y con espacios
+    }
+*/
+
+
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+  
+    background-image: url(../img/R\ \(1\).png);
+    background-repeat: repeat-x;Solamente se repite en el eje x o en el y, en el horizontal o en vertical si pone solo el repeat entonces se repite en ambos lados
+    }
+*/
+
+
+
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+    /*Sintaxis por si el estilo de la imagen se repite al cambiarla por otra 
+    background-image: url(../img/R\ \(1\).png);
+    background-repeat: no-repeat;para q la imagen no c repita
+    }
+*/
+
+
+
+
+
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+    background-image: url(../img/R\ \(1\).png);Carpeta Local del Dispositivo
+    }
+*/
+
+
+
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); 
+    background-image: url(https://th.bing.com/th/id/OIP.tQBEcLybdfo22atwwrtoDgHaEJ?w=292&h=180&c=7&r=0&o=5&pid=1.7);Imagen q este en internet
+    }
+*/
+/*
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background: rgb(67, 21, 232); Color de fondo
+    }
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background-color: hsla(337, 92%, 31%,.5 ); angulo,saturacion,cantidad de azul,brillo,valordelalpha
+    }
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( "..\DESCARGAS MAFE\R.png" );
+}
+.SAIYAJIN2{
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: rgb(23, 189, 134);
+    background-color: hsl(337, 92%, 31% );Tono saturacion iluminusidad
+}*
+*/
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url( "..\DESCARGAS MAFE\R.png" );
+
+}
+.SAIYAJIN2{ 
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: aquamarine;
+    background-color: rgb(250, 128, 114);Colores RGB  sacarlos 
+    
+}
+
+*/
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.SAIYAJIN2{ Creo un cuadrado de color azul dentro del texto q  tiene la clase saiyajin2 de color aquamarina de fondo cafe
+    margin:100px ;
+    width: 400px;
+    height: 400px;
+    border: 10px solid  blue;
+    padding: 10px ;
+    font-size: 20px;
+    box-sizing: border-box ;
+    color: aquamarine;
+    background-color: brown;
+}
+*/
+
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    border: 10px solid blue;
+    padding: 10px; 
+    box-sizing:border-box;
+    border-radius: 50%; como  se hace un circulo 
+    
+}
+*/
+
+/*
+html,
+body{  
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    border: 10px solid blue;
+    padding: 10px; 
+    box-sizing:border-box;
+        arriba izq,arriba dere,abajo derecha,abajo izquierda para crear un cuadrado con bordes
+    border-radius: 50px 30px 10px 30px;
+}
+*/
+
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{
+    margin: 50px;
+    width: 500px;
+    height: 220px;
+    border: 10px solid blue;
+    padding: 10px; 
+    box-sizing:border-box;
+    Estas propiedades lo que hacen es un cuadrado bordeado a los lados
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px ;
+}
+*/
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{     Tamaño Final
+    margin: 50px;
+    width: 220px;
+    height: 220px;
+    border: 10px solid blue;
+    padding: 10px;
+    box-sizing: content-box; proporciona el comportamiento predeterminado de tamaño de cuadro CSS. Si estableces el ancho de un elemento en 100 píxeles, entonces el cuadro de contenido del elemento tendrá 100 píxeles de ancho, y el ancho de cualquier borde o relleno se agregará al ancho final renderizado, haciendo que el elemento sea más ancho que 100px.         
+}
+*/
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{    un cuadro grande 
+    background-color: aqua;
+    width: 100%; 
+    min-width: 200px;
+    max-width: 400px;
+    height: 100%;
+    min-height: 300px ;
+    max-height: 500px ;
+}
+*/
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{    un cuadro pequeño
+    background-color: aqua;
+    width: max-content; 
+    height: auto;
+    display: auto;
+}
+*/
+/*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{ /* Agrega un borde un borde arriba
+    background-color: aqua;
+    width: 100px;/* se crea un cuadro elemto tipo bloque
+    height: 100px;
+}
+
+*/
+ /*
+html,
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#GOKU{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border: 15px solid blue;
+        arriba derecha  abajo izquierda 
+    padding: 50px 60px 80px 15px;
+}
+*/
+/* ESTE LE AGREGA LAS PROPIEDADES AL BORDE A LOS LADOS
+    padding-top: 10px;
+    padding-right: 20px ;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+    */
+/*
+#GOKU{  
+    width: 300px;
+    height: 300px;
+    background-color: rgb(27, 23, 255); fondo azul
+    margin: 50px;
+    border: 15px solid greenyellow; alrededor 
+    border-top-style: dotted; cambia a punteado de arriba borde 
+    border-left-color:green; cambia el borde del lado izquierda a verde
+    border-left-width: 10px
+}
+/*
+#GOKU{  
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    margin: 50px;
+
+    border-width: 15px 30px 7px 12px;
+                arriba derecha abajo izquierda
+    border-style: dotted dashed solid groove;
+                arriva  derecha abajo
+    border-color: black blue  brown;
+}
+/* 
+#GOKU{ crea un borde
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    margin: 50px;
+propiedades q componen  un borde
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 11, 251);
+    
+ propiedades q componen  un borde puntiado
+    border-right-width: 10px;
+    border-right-style: dotted;
+    border-right-color: rgb(0, 119, 255);
+
+propiedades q componen  un borde definido
+    border-bottom-width: 15px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(38, 0, 255);
+
+ propiedades q componen  un borde definido
+border-left-width: 20px;
+border-left-style: double;
+border-bottom-color: gray;
+
+}
+*/
+
+/*
+opacity: 0.6; propiedad q opaca cualquier cosa*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#GOKU{
+    width: 50px; 
+    height: 50px; 
+    background-color: red;
+}
+#gohan{
+    width: 50px; 
+    height: 50px; 
+    background-color: blue;
+    margin-top: 50px;
+}
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#gohan{
+    color: sandybrown;
+    width: 500px; 
+    height: 50px; 
+    background-color: indigo;
+   margin: 10px 30px 50px 100px;top,right,bottom,left los cuatro lados de un sitio web 
+}
+   */
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#gohan{
+    color: sandybrown;
+    width: 100vw; 
+    height: 50vh; 
+    border: 6px solid blueviolet; le agrega un borde solido de 6px  
+    padding: 40px; se agrando xque tienen un relleno
+    background-color: lightgreen;
+}
+*/
+/*
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#gohan{
+    color: sandybrown;
+    width: 100vw; /*ancho*/ /* vmax ancho maxima
+    height: 50vh; /* altura*//*vmin altura minima
+    background-color: lightgreen;
+} */
+/*
+:root{
+    font-size: 30px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#gohan{
+    color: darkcyan;
+    font-size: 400%;
+    width: 70%;
+    height: 50%;
+    background-color: black;
+}
+La unidad de medida de porcentaje depende lo q es el padre mas cercano y va a tomar siempre el mismo q tiene la misma propiedad el rem depende
+ del tamaño q tenga o de la unidad de medida q tenga el   font-size  de la raiz del documento  o de la pseudo clase root 
+ los em van a tomar simepre lo q es los valores de la propiedad font-size  pero de su padre mas cercano
+
+*/
+/*
+Esto hace referencia al tamaño de letras 
+:root{
+    font-size: 15px;
+}
+#N{                      3*15=45 em  el tamaño de px q ud tiene es de 16 para saber el total recuerde multiplicar
+color:slategray;
+font-size: 3em;
+
+
+}
+
+#gohan{
+font-size: 3em;
+}
+#vegeta777{
+    color: red;
+    font-size: 2.5rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: yellow;
+}
+*/ 
+/* unidades de medida absolutas
+:root{
+    --color-titulos: red; 
+    --fuente:15px;
+    --color-titulos2:rgb(8, 0, 245);
+    
+}
+
+#N{ 
+    color: blue;
+     font-size: 3pc;
+     height: 30in;
+     width: 70pt;
+     background-color: chocolate;
+}
+
+#vegeta777{
+   height: 8.5cm;
+   width: 70mm;
+   background-color: aliceblue;
+}
+*/
+/* herencia 
+#N{ 
+    color: greenyellow;
+    font-size: 45px;
+    border: 5rem solid black ;
+}
+    */
+/* forazar la herencia 
+#gohan{
+    border: inherit  ;
+}
+    */
+
+/* Hereda el color inicial 
+#Goten{
+    color: initial;
+}
+*/
+/*
+:root{
+    --color-titulos: red; se aplica a todos  esto es una variable
+    --fuente:15px; con tamaño
+    }
+*/ 
+
+/*
+#N{ crear variables color 
+    color: var(--color-titulos);
+    font-size: var(--fuente);
+     ;
+}
+     */
+/* 
+#gohan{
+    color: var(--color-titulos);
+    font-size: var(--fuente);
+    ;
+}
+*/
+
+
+/* Variable color del texto y del tamaño de la variable
+#Goten{
+    color: var(--color-titulos) ;
+    font-size: var(--fuente);
+} */
+
+
+/*
+#vegeta777{
+    color: var(--color-titulos);
+    font-size: var(--fuente);
+}
+*/
+
+
+
+/*
+:root{
+    --color-titulos: red; 
+    --fuente:15px;
+    --color-titulos2:rgb(8, 0, 245);
+    
+}
+
+#N{ 
+    color: var(--color-titulo,var(--color-titulos2)); si la variable esta mal escrita toma valores secundario
+    font-size: var(--fuente);
+     ;
+}
+
+#gohan{
+    color: var(--color-titulo,var(--color-titulos2));
+    font-size: var(--fuente);
+    ;
+}
+
+
+#Goten{
+    color: var(--color-titulo,var(--color-titulos2)) ;
+    font-size: var(--fuente);
+}
+#vegeta777{
+  
+color: var(--color-titulo,var(--color-titulos2));
+    font-size: var(--fuente);
+}
+*/

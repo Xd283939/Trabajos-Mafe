@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h4>Ingrese Datos</h4>
+    <form>
+        Name<br>
+        <input type="text" id="nombre" onfocus="vacio(this)" value="nombre">
+        <br><br>
+        edad<br>
+        <input type="text" id="edad" onfocus="vacio(this)" value="edad">
+        <br><br>
+        <input type="button" value="Ingresar " onfocus="Verificar()" >
+    </form>
+    <script>
+        function vacio(control){
+            control.value='';/*Valor en blanco del parametro control hace referencia arriba al this*/
+
+
+
+
+
+
+        }
+        function Verificar(){
+            swal('Datos Confirmados');
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h5>Comentarios0</h5>
+    <form>
+        <p><textarea id="comentarios" rows="20" cols="40"></textarea></p>
+        <input type="button" value="Send" onclick="comentar()">
+    </form>
+    <script>
+        let area=document.getElementById('comentarios');
+        area.style.resize = "none";
+        function comentar(){
+            if(document.getElementById('comentarios').value.length >100){/* Se hace un condicional de la id comentarios y se le agrega 
+                un mensaje si es largo o corto*/
+                swal ('Largooooooooooooooooooooo');
+            }else{
+                swal ('cortoooooooooooooooooooooo');
+            }
+        }
+    </script>
+</body>
+</html>

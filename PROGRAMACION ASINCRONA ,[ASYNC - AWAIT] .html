@@ -1,0 +1,45 @@
+<!-- Async -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      async function  obtenerDatos(){
+                console.log("este codigo esta al principio")
+                let respuestaGasolina = await fetch ('https://api.datos.gob.mx/v1/precio.gasolina.publico');
+                let datosgasolina = await respuestaGasolina.json();
+
+                console.log('este codigo esta en el medio')
+                let respuestaDolar = await fetch('https://open.er-api.com/v6/latest/USD');
+                let DatosDolar = await respuestaDolar.json();
+                
+                console.log(datosgasolina , DatosDolar);
+                console.log('este codigo esta al final')
+            }
+            obtenerDatos();
+        //   async function obtenerDatos(){
+        //     let respuesta = await fetch('https://api.datos.gob.mx/v1/precio.gasolina.publico')
+        //     let datos = await respuesta.json();
+        //     console.log(datos);
+        //   }
+        //   obtenerDatos();
+        //   console.log('El codigo sigue');
+        //     .then(function(respuesta){
+        //         return respuesta.json();
+        //     })
+        //     .then(function(datos){
+        //         console.log(datos);
+        //     })
+        //     .catch(function(error){
+        //         console.error(error);
+        //     });
+        // }
+        // obtenerDatos();
+        // console.log('EL CODIGO SIGUE');
+    </script>
+  </body>
+</html>
